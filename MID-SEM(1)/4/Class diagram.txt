@@ -1,0 +1,12 @@
+-------------------------
+|        Device         |
+-------------------------
+| - name : String       |
+| - version : String    |
+| - status : String     |
+-------------------------
+| + Device()            |
+| + Device(name,ver)    |
+| + Device(name,ver,st) |
+| + details()           |
+-------------------------

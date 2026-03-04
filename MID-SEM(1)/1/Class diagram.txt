@@ -1,0 +1,14 @@
++----------------------------------+
+|            Reservation                  |
++----------------------------------+
+| - guestName : String             |
+| - roomType : String              |
+| - nightlyRate : double           |
++----------------------------------+
+| + Reservation()                        |
+| + Reservation(String, String,    |
+|               int, double)       |
+| + Reservation(Reservation,       |
+|               String)            |
+| + display() : void               |
++----------------------------------+
