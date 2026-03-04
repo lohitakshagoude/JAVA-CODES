@@ -1,0 +1,23 @@
+                 <<abstract>>
+                    BluePrint
+-------------------------------------------------
+- shipId : String
+- weight : double
+- destination : String
+# trackingId : String
+-------------------------------------------------
++ code : String {static, final}
+-------------------------------------------------
++ getId()
++ getWeight()
++ getDestination()
++ generateTrackingNumber() {static}
+-------------------------------------------------
++ shippingCost() {abstract}
+-------------------------------------------------
+          ▲
+          │
+ -------------------     -----------------------
+ Domestic              International
+ -------------------     -----------------------
+ + shippingCost()       + shippingCost()
